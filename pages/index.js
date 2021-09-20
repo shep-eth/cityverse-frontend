@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import venice from "../public/venice.svg";
-import tokyo from "../public/tokyo.svg";
+import lucerne from "../public/lucerne.svg";
+import mamoudzou from "../public/mamoudzou.svg";
 import more from "../public/more.svg";
 
 export default function Home() {
@@ -94,25 +94,27 @@ export default function Home() {
               <Image
                 width={280}
                 height={280}
-                src={venice}
-                alt="Cityverse Venice"
+                src={lucerne}
+                alt="Cityverse Lucerne"
               />
             </li>
             <li className="p-2">
               <Image
                 width={280}
                 height={280}
-                src={tokyo}
-                alt="Cityverse Tokyo"
+                src={mamoudzou}
+                alt="Cityverse Mamoudzou"
               />
             </li>
             <li className="p-2">
-              <Image
-                width={280}
-                height={280}
-                src={more}
-                alt="You can go to Opensea to view more Cityverse NFTs"
-              />
+              <a href="#" target="_blank" rel="noreferrer">
+                <Image
+                  width={280}
+                  height={280}
+                  src={more}
+                  alt="You can go to Opensea to view more Cityverse NFTs"
+                />
+              </a>
             </li>
           </ul>
         </section>
