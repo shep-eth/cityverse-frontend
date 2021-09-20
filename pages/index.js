@@ -47,7 +47,12 @@ export default function Home() {
 
           <ul className="flex space-x-6 max-w-min mx-auto p-6">
             <li className="flex-1">
-              <a href="#" target="_blank" className="hover:underline">
+              <a
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:underline"
+              >
                 Opensea
               </a>
             </li>
@@ -55,13 +60,19 @@ export default function Home() {
               <a
                 href="https://twitter.com/CityverseHQ"
                 target="_blank"
+                rel="noreferrer"
                 className="hover:underline"
               >
                 Twitter
               </a>
             </li>
             <li className="flex-1">
-              <a href="#" target="_blank" className="hover:underline">
+              <a
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:underline"
+              >
                 Contract
               </a>
             </li>
