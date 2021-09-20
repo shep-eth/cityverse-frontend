@@ -13,11 +13,31 @@ export default function Home() {
           name="description"
           content="10,000 cities permanently stored on the blockchain. Connecting people across the globe, bridging the gap between geography and epidemics. Feel free to travel between cities, building the Cityverse."
         />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
 
       <main className="max-w-6xl mx-auto">
         <nav className="p-6">
-          <div className="text-3xl font-bold">Cityverse</div>
+          <div className="text-3xl font-bold md:pl-24 md:ml-1">Cityverse</div>
         </nav>
 
         <section className="text-center p-6">
@@ -32,7 +52,11 @@ export default function Home() {
               </a>
             </li>
             <li className="flex-1">
-              <a href="#" target="_blank" className="hover:underline">
+              <a
+                href="https://twitter.com/CityverseHQ"
+                target="_blank"
+                className="hover:underline"
+              >
                 Twitter
               </a>
             </li>
