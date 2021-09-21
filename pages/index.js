@@ -1,5 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+
+import logo from "../public/logo.png";
 import lucerne from "../public/lucerne.svg";
 import mamoudzou from "../public/mamoudzou.svg";
 import more from "../public/more.svg";
@@ -37,12 +40,20 @@ export default function Home() {
 
       <main className="max-w-6xl mx-auto">
         <nav className="p-6">
-          <div className="text-3xl font-bold md:pl-24 md:ml-1">Cityverse</div>
+          <div className="text-3xl font-bold md:pl-24 md:ml-1">
+            <Link href="/">
+              <a>
+                <Image src={logo} width={150} height={34} alt="Cityverse" />
+              </a>
+            </Link>
+          </div>
         </nav>
 
         <section className="text-center p-6">
           <div className="p-6">
-            <h2 className="text-6xl font-bold">Cityverse</h2>
+            <h2>
+              <Image src={logo} width={300} height={68} alt="Cityverse" />
+            </h2>
           </div>
 
           <ul className="flex space-x-6 max-w-min mx-auto p-6">
