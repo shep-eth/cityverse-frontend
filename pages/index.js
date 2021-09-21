@@ -58,6 +58,16 @@ export default function Home() {
             </li>
             <li className="flex-1">
               <a
+                href="https://discord.gg/GyuhvscffE"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:underline"
+              >
+                Discord
+              </a>
+            </li>
+            <li className="flex-1">
+              <a
                 href="https://twitter.com/CityverseHQ"
                 target="_blank"
                 rel="noreferrer"
