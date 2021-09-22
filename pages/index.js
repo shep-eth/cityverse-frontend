@@ -40,7 +40,7 @@ export default function Home() {
 
       <main className="max-w-6xl mx-auto">
         <nav className="p-6">
-          <div className="text-3xl font-bold md:pl-24 md:ml-1">
+          <div className="md:pl-24 md:ml-1">
             <Link href="/">
               <a>
                 <Image src={logo} width={150} height={34} alt="Cityverse" />
