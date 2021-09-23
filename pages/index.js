@@ -89,7 +89,7 @@ export default function Home() {
             </li>
             <li className="flex-1">
               <a
-                href="#"
+                href="https://etherscan.io/address/0xb50ac03c228162af67e7265313524a2872dce54a"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:underline"
