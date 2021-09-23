@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import logo from "../public/logo.png";
 import lucerne from "../public/lucerne.svg";
-import mamoudzou from "../public/mamoudzou.svg";
+import tokyo from "../public/tokyo.svg";
 import more from "../public/more.svg";
 
 export default function Home() {
@@ -123,8 +123,8 @@ export default function Home() {
               <Image
                 width={280}
                 height={280}
-                src={mamoudzou}
-                alt="Cityverse Mamoudzou"
+                src={tokyo}
+                alt="Cityverse tokyo"
               />
             </li>
             <li className="p-2">
