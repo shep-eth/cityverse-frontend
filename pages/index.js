@@ -142,7 +142,7 @@ export default function Home() {
       </main>
 
       <footer className="max-w-6xl mx-auto text-center p-12 text-gray-500">
-        <p>Built by a global team with ❤️</p>
+        <p>Built by a global community with ❤️</p>
       </footer>
     </>
   );
