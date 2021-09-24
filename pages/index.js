@@ -59,7 +59,7 @@ export default function Home() {
           <ul className="flex space-x-6 max-w-min mx-auto p-6">
             <li className="flex-1">
               <a
-                href="#"
+                href="https://opensea.io/collection/cityverse"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:underline"
@@ -128,7 +128,7 @@ export default function Home() {
               />
             </li>
             <li className="p-2">
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="https://opensea.io/collection/cityverse" target="_blank" rel="noreferrer">
                 <Image
                   width={280}
                   height={280}
