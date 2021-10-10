@@ -14,7 +14,7 @@ export default function Home() {
         <title>Cityverse</title>
         <meta
           name="description"
-          content="10,000 cities permanently stored on the blockchain. Connecting people across the globe, bridging the gap caused by geography and epidemics. Feel free to travel between cities, building the Cityverse."
+          content="1,111 cities permanently stored on the blockchain. Connecting people across the globe, bridging the gap caused by geography and epidemics. Feel free to travel between cities, building the Cityverse."
         />
         <link
           rel="apple-touch-icon"
@@ -100,7 +100,7 @@ export default function Home() {
           </ul>
 
           <p className="p-6 text-gray-500">
-            10,000 cities permanently stored on the blockchain.
+            1,111 cities permanently stored on the blockchain.
             <br />
             Connecting people across the globe, bridging the gap caused by
             geography and epidemics.
